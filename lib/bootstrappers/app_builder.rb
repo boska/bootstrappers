@@ -36,6 +36,7 @@ module Bootstrappers
 
     def generate_devise
       generate 'devise:install'
+      generate 'devise User'
     end
 
     def generate_auto_facebook
